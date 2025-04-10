@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+// Definierar ett schema för produkter i databasen
 const productSchema = new mongoose.Schema({
     name: { type: String, required: true },
     price: { type: Number, required: true },
